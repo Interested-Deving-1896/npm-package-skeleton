@@ -1,115 +1,75 @@
-# npm-package-skeleton 🧱
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# npm-package-skeleton
 
-A simple and powerful skeleton to kickstart your next NPM package.  
-Designed to get out of your way and let you focus on building.  
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/npm-package-skeleton)
 
-> 🎯 Comes with built-in setup automation, GitHub workflows, author metadata, and more!
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
----
+## Architecture
 
-## 🚀 Quick Start
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-1. **Use the template**  
-   Click the **[Use this template](https://github.com/HichemTab-tech/npm-package-skeleton/generate)** button on the GitHub page
-   to create your own repo from this skeleton.
+## Install
 
-2. **Clone your new repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
-   ```
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-3. **Run the setup script**
-   ```bash
-   npm install
-   npm run setup
-   ```
+```bash
+git clone https://github.com/Interested-Deving-1896/npm-package-skeleton.git
+cd npm-package-skeleton
+```
 
-4. **Answer the prompts**, and your package will be tailored to you:
-   - Package name
-   - Author info
-   - GitHub username
-   - Preferred package manager (`npm` or `pnpm`)
-   - etc.
+## Usage
 
-5. **Done!**  
-   Your skeleton is now personalized, cleaned up, initialized with Git, and ready to code 🎸  
-   **You can even publish to npm with a single GitHub release!**
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## 📦 Publishing to npm
+## Configuration
 
-This skeleton comes with a preconfigured GitHub Action to automatically publish your package to [npmjs.com](https://www.npmjs.com/) whenever you create a GitHub release. 🎉
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-To enable it:
+## CI
 
-1. **Create an npm access token**:
-    - Go to your [npm account tokens page](https://www.npmjs.com/settings/tokens).
-    - Click **"Generate New Token"**.
-    - Choose **"Automation"** (or **"Classic" with "Publish" access** if you prefer).
-    - Copy the generated token.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-2. **Add the token to your GitHub repo**:
-    - Go to your repository on GitHub.
-    - Navigate to **Settings** → **Secrets and variables** → **Actions** → **New repository secret**.
-    - Name it exactly: `NODE_AUTH_TOKEN`
-    - Paste your token as the value.
+## Mirror chain
 
-3. **Publish your package**:
-    - Push your changes to `main` (or your default branch).
-    - Go to the **Releases** tab on GitHub.
-    - Click **"Draft a new release"** and fill in the version/tag.
-    - Once published, the GitHub Action will automatically publish your package to npm. 🚀
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/npm-package-skeleton`](https://github.com/Interested-Deving-1896/npm-package-skeleton) and mirrored through:
 
-✅ That’s it! Now your releases will sync directly to npm with no extra steps.
+```
+Interested-Deving-1896/npm-package-skeleton  ──►  OpenOS-Project-OSP/npm-package-skeleton  ──►  OpenOS-Project-Ecosystem-OOC/npm-package-skeleton
+```
 
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
----
+## Contributors
 
-## ✨ What's Included
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-- 🔁 Replaces placeholders with your custom info.
-- 🧪 Ready-to-go structure.
-- 🔧 GitHub Workflows:
-    - Auto-assign issues
-    - Dependabot support
-    - ✅ **Publish to npm on GitHub release** (just create a release tag, and it’s live!)
-- 📋 GitHub repo enhancements:
-    - Issue templates for structured bug reports and feature requests.
-    - Pull Request templates to encourage clear and detailed contributions.
-- 🧹 Auto-cleans stub files and setup script after running.
-- 💡 Package manager-based CI workflows (only keeps the one you need!).
+## Origins
 
----
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-## 📦 Why Use This?
+## Resources
 
-Creating a new NPM package can be a chore:
-- Configure GitHub flows ✅
-- Clean project structure ✅
-- Automate publishing ✅
-
-Let this repo do all the boring stuff, so you can jump straight into the code.
-
----
-
-## 🤝 Contribute
-
-This is just the beginning.
-
-There’s so much room to grow — from better GitHub automations (issue bots, release helpers) to richer setup options.
-
-If you’ve got ideas, open a pull request or start a discussion — **contributions are super welcome!** 🌱
-
----
-
-## 🌟 Support
-
-If this helped you out,
-please consider giving the repo a ⭐️ on [GitHub](https://github.com/HichemTab-tech/npm-package-skeleton) —
-every bit of support means a lot!
-
----
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-[MIT](./LICENSE)
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/npm-package-skeleton/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
